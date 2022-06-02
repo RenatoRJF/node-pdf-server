@@ -78,7 +78,7 @@ const summaryContent = (systems) => {
     return `
       <div class="summary-header">
         <h3 class="summary-title">${title}</h3>
-        <span class="summary-price">${value}</span>
+        <span class="summary-price">€${value},-</span>
       </div>
 
       <p class="paragraph summary-description">${description}</p>
